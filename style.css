@@ -1,0 +1,18 @@
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: center; color: blue;
+}
+h2{
+    color:red;
+}
+h3{
+    color:blueviolet
+}
+.form-group{
+    display: inline-block;
+}
+#outputN12{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: center; color:green;
+    font-size: 60px;
+}

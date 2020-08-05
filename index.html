@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Szamologep</title>
+</head>
+
+<body>
+    <h1>Számológép</h1>
+
+    <form>
+        <div class="form-group">
+            <label for="input">
+                <h3>Add meg az első számot!</h3>
+            </label>
+            <input type="number" class="form-control" name="inputN1" id="inputN1">
+        </div>
+    </form>
+
+    <form>
+        <div class="form-group">
+            <label for="input">
+                <h3>Kérem a 2. számot!</h3>
+            </label>
+            <input type="number" class="form-control" name="inputN2" id="inputN2">
+        </div>
+    </form>
+
+    </form>
+    <button onclick="osszead()" type="button" class="btn btn-primary" id="sub">Go!</button>
+    </form>
+
+    <form>
+        <div class="form-group">
+            <h2>Eredmény:</h2> <span class="eredmeny">
+                <h1></h1>
+            </span>
+            <class="form-control" id="outputN12">
+        </div>
+    </form>
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
